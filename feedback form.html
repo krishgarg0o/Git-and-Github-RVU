@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>
+Feedback Form
+</title>
+<style>
+    body{ 
+background-image: url("brick wall.jpg");
+background-size: auto;
+}
+ 
+        
+    textarea{
+        background-color: rgb(229, 138, 252);
+    border-radius: 50px;}
+    textarea:hover{
+         box-shadow: 10px 10px 50px rgb(255, 153, 0) ;    /*:horizontal and then vertical*/
+    background-color: rgba(174, 109, 236, 0.676);
+    transition:  0.5s;
+float: right;}
+
+
+    input{border-color: green;
+    background-color: greenyellow;
+    padding: 20px;
+ border: radius 5px ;
+ color:darkblue;}
+ input[type="checkbox"]
+ {width: 30px;
+    height: 30px;}
+    input[type="checkbox"]:hover{
+    box-shadow: 3px 5px 5px rgb(7, 75, 235) ;}
+    div{border: 5px;
+        padding: 10px;
+        margin:10px;
+        width: fit-content;
+        border-style:double;
+    background-color:burlywood ;
+    border-radius: 50px;;
+    }
+</style>
+</head>
+<center>
+<body>
+<h1>FEEDBACK FORM</h1>
+<marquee direction="left">Help us improve </marquee> <br><br>
+<form><div>
+<b>Name:</b><input type="text" name="Username"><br><br>
+
+<b>E-mail Address:</b><input type="email" name="email"><br><br>
+
+
+<b>Comments:</b><br>
+<textarea name="message" rows="6" cols="40">
+</textarea><br><br>
+
+
+<b>Things you liked:</b><br>
+Site design<input type="checkbox" name="choice" value="cb1">
+Ease of use<input type="checkbox" name="choice" value="disabled">
+Content<input type="checkbox" name="choice" value="cb3">
+<BR><BR>
+
+
+
+<b>Rate our site:</b>
+<select name="rate">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select><br><br>
+
+<button type="submit">SUBMIT</button>
+<button type="reset" value="reset">reset</button>
+</div>
+</form>
+</center>
+</body>
+</html>
